@@ -1,0 +1,10 @@
+from tkinter import *
+m=Tk()
+m.geometry("500x500")
+b1=Button(m,text="Submit")
+# b1.place(anchor=NE,relx=0.5)
+b1.place(relx=1,x=-2,y=2,anchor=NE)
+b2=Button(m,text="New")
+# b2.place(anchor=SE,x=30,y=30)
+b2.place(relx=0.5,rely=0.5,anchor=CENTER)
+m.mainloop()
