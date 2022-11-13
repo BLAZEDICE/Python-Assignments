@@ -10,6 +10,10 @@ for nos in list1:
     for nos2 in list2:
         add_list.append(nos+nos2)
 print(add_list)
+
+
+
+
 result=map(add,list1,list2)
 print(list(result))
 

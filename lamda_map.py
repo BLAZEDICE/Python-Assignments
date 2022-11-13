@@ -22,4 +22,4 @@ a=map(lambda i:(i[0]+"__",i[1]+"s"),dict_item.items())
 dict_item={"a":"Car","b":"Bike","c":"Train"}
 a2=map(lambda i:i+"__",dict_item.keys())
 print(dict(a))
-print(a2)
+print(list(a2))

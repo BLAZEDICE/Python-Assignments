@@ -1,5 +1,5 @@
 #2.Seperate all odd and even nos
-nos=[1,2,3,4,5,6,7]
+nos=[0,1,2,3,4,5,6,7]
 def my_function(i):
     if i%2==0:
         print("Even :",i)
@@ -23,5 +23,6 @@ result=filter(my_function2,nos)
 print(list(result))
 result2=map(lambda a:"even" if a%2==0 else "odd",nos)
 print (list(result2))
+
 
 #Doubt
